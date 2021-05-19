@@ -50,12 +50,12 @@
     flex: 1;
 
     margin-right: .6rem;
-    background: #6C63FF;
-    color: #f5f5f5;
+    background: var(--primary);
+    color: var(--background);
 }
 
 .landingContainer .content .buttons .accessPlatform:hover {
-    background: #5d56dd;
+    background: var(--primary-dark);
 }
 
 .landingContainer .content .buttons .signup:hover {
