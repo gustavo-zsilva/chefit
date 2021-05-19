@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
+            {/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" /> */}
         </Head>
         <body>
           <Main />
