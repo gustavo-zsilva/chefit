@@ -14,7 +14,16 @@ export default function Home() {
       </Head>
 
       <div className={styles.landingContainer}>
-        
+        <div>
+          <h2>Share your favorite cooking recipes</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui doloremque corrupti ut sed odit praesentium accusantium iusto. Velit voluptatibus, molestiae adipisci aspernatur reprehenderit aliquid veritatis facere saepe et sit voluptatem!
+          </p>
+        </div>
+
+        <div>
+          <img src="/assets/donut.svg" alt="Donut Image" />
+        </div>
       </div>
     </Layout>
   )
