@@ -10,11 +10,12 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-            {/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" /> */}
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />
-          <NextScript />
+          <NextScript />          
         </body>
       </Html>
     )

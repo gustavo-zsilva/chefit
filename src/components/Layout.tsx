@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
 
-import { Header } from './Header';
+import { Flex, Box } from '@chakra-ui/react';
 
-import styles from '../styles/components/Layout.module.css';
+import { Header } from './Header';
 
 interface LayoutProps {
     children: ReactNode;
@@ -10,12 +10,12 @@ interface LayoutProps {
 
 export function Layout({ children }: LayoutProps) {
     return (
-        <div className={styles.layoutContainer}>
+        <div>
             <Header />
 
-            <div className={styles.content}>
+            <Flex direction="column" maxW="80rem" m="4rem auto">
                 {children}
-            </div>
+            </Flex>
         </div>
     )
 }
